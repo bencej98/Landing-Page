@@ -10,6 +10,7 @@ body {
 
 .modal {
     padding-top: 100px;
+    display: flex;
 }
 .main-text {
     font-size: 48px;
