@@ -56,3 +56,9 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
+.image-modal {
+    background-color: grey;
+    width: 500px;
+    height: 200px;
+}
