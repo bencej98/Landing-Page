@@ -32,6 +32,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .hero-signup, button {
@@ -73,6 +74,12 @@ ul {
     color: white;
 }
 
+.main-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -85,10 +92,12 @@ a {
     text-align: center;
     border-radius: 6px;
     color: white;
+    font-size: 14px;
 }
 
 .sign-up {
     border: 0;
+    flex-shrink: 0;
 }
 
 .sign-up2 {
@@ -98,4 +107,11 @@ a {
 .sign-up:hover, .sign-up2:hover {
     background-color: white;
     color: #3882f6;
+}
+
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
