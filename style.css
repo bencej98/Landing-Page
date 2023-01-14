@@ -91,3 +91,11 @@ a {
     border: 0;
 }
 
+.sign-up2 {
+    border: 2px solid white;
+}
+
+.sign-up:hover, .sign-up2:hover {
+    background-color: white;
+    color: #3882f6;
+}
