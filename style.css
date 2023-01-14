@@ -60,21 +60,30 @@ ul {
     padding-top: 10px;
 }
 
-.main-modal {
-    width: 420px;
+.main-modal, .image-modal {
+    width: 450px;
     height: 200px
 }
 
 .image-modal {
     background-color: rgb(161, 155, 155);
-    width: 420px;
-    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
+
+.sign-up, .sign-up2 {
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+}
+
