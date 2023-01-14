@@ -116,7 +116,15 @@ a {
     color: #1f2937;
 }
 
+
 .cards {
     display: flex;
-
 }
+
+.square {
+    width: 160px;
+    height: 160px;
+    border-radius: 6px;
+    outline: 4px solid #3882f6;
+}
+
