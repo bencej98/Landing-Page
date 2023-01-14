@@ -57,6 +57,11 @@ ul {
     justify-content: space-between;
 }
 
+.main-modal {
+    width: 420px;
+    height: 200px
+}
+
 .image-modal {
     background-color: grey;
     width: 500px;
