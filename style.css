@@ -11,6 +11,7 @@ body {
 .modal {
     padding-top: 100px;
     display: flex;
+    justify-content: space-between;
 }
 .main-text {
     font-size: 48px;
@@ -63,7 +64,10 @@ ul {
 }
 
 .image-modal {
-    background-color: grey;
+    background-color: rgb(161, 155, 155);
     width: 420px;
-    height: 200px
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
