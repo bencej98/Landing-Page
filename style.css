@@ -7,3 +7,9 @@
 .hero, footer {
     background-color: #1f2937;
 }
+
+.filler-text, .header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
