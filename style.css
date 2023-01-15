@@ -121,14 +121,29 @@ a {
 .cards {
     display: flex;
     justify-content: center;
+    gap: 60px;
 }
 
-.square {
+.card {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first-element, .second-element, .third-element, .fourth-element {
+    flex-basis: 160px;
+  }
+
+.square {
     width: 160px;
     height: 160px;
     border-radius: 6px;
     outline: 4px solid #3882f6;
+}
+
+.text {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    color: rgb(117, 114, 114);
 }
 
