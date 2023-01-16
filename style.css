@@ -159,20 +159,20 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 500px;
+    height: 150px;
 }
 
 
 .quote-text {
     display: flex;
-    width: 500px;
-    height: 150px;
     font-weight: lighter;
     font-style: italic;
-    flex-wrap: wrap;
-  }
+}
 
   .quote-author {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     font-weight: 800;
