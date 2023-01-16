@@ -188,14 +188,25 @@ a {
 }
 
   .signup-bottom{
-    width: 800px;
+    width: 900px;
     height: 100px;
     border-radius: 6px;
     display: flex;
     color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 80px;
   }
   
   .main-text2 {
     font-size: 20px;
     font-weight: 600;
+  }
+
+  .left-part {
+    width: 80%;
+  }
+
+  .right-part {
+    width: 20%;
   }
